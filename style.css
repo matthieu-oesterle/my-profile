@@ -1,0 +1,78 @@
+body {
+	background-color: #F1F1F1; 
+	color:rgb(30,30,30);
+	font-family: 'Andika New Basic', sans-serif;;
+	font-size: 16px
+}
+
+h1 {
+	color: #D68060;
+	font-family: helvetica
+	font-size: 26px;
+}
+
+h2 {
+font-weight: lighter;
+font-size: 26px
+}
+
+h2,h3 {
+	font-family: courier
+}
+
+a {text-decoration: none;
+color:red;
+}
+
+/* kkk */
+
+.container {
+   width: 700px;
+   margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
